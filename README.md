@@ -19,7 +19,8 @@ Features of this application:
     Change Location,
     View Current Status of Order,
     Rate Products,
-    Deal of the day
+    Deal of the day,
+    Search Products
 
  Stack: 
    flutter: 
