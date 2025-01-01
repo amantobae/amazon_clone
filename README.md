@@ -1,26 +1,68 @@
 # amazon_clone
 
-Flutter Amazon Clone Application + Server Node JS.
+**Flutter Amazon Clone Application with Node.js Server**  
 
-this app consists of 2 parts :
-  1)app for user
-  2)app for admin
+This is a full-featured e-commerce application for users as well as the admin. It's divided into two parts:  
 
-Features of this application:
-   Admin:
-    Add and Sell Products,
-    Manage Order Statuses,
-    Delete Products,
-    View Analytics(actually this part is not finished yet)
-    
-   User:
-    Buy Products (Apple Pay and Google pay are supported),
-    Place Orders,
-    Change Location,
-    View Current Status of Order,
-    Rate Products,
-    Deal of the day,
-    Search Products
+1. **User Application**  
+2. **Admin Application**  
+
+### **Features of the Application**  
+
+#### **Admin Panel**
+The Admin application is a strong tool for administrators to efficiently manage and oversee all aspects of the platform with ease. Following are some of the key features: 1. **Add and Sell Products**: - Adding new products to the catalog is easy, along with their details like name, description, price, and images. - Keep track of the inventory level of each product. 2. **Manage Order Statuses**:
+- Real-time update of order status: pending, shipped, delivered, among others.  
+   - Let users know the state of their orders.  
+
+3. **Delete Products**:  
+   - Outdated products or unavailable ones are deleted from the catalog.  
+   - A relevant and cleaned product database is kept.  
+
+4. **View Analytics** *(in development)*:
+- Derive useful insights on sale trends, customer behavior, and product trends.  
+- Marketing strategies and promotions based on decision-making skills.  
+
+#### **User Application** 
+The user application covers all customer needs. Listed below are some of its features utilized by customers in general: 
+1. **Browse and Buy Products** :
+- Search in plenty of products, their details, reviews, including images.  
+   - Add to Cart and checkout with ease.  
+   - Supports a variety of payments, from **Apple Pay** and **Google Pay** for speed and security.  
+
+2. **Place Orders**: 
+   - Place orders with just a few taps.
+- Have order summary and confirmation at one's fingertips immediately. 
+
+3. **Modify the Delivery Location**
+ 	- Define and edit, at any stage in placing an order, where something has to be delivered. 
+ 	- Have updates on the location for your delivery at a specified address.
+
+4. **Follow Order Status in Real-time:
+- View the status of the placed order: Example: processing, shipped, delivered.  
+   - Receive notifications on estimated delivery times.  
+
+5. **Rate and Review Products**: 
+   - Provide feedback about the purchased products through rating and review comments. 
+   - Help other customers to make better purchase decisions. 
+
+6. **Deal of the Day**:
+- Get daily deals and exclusive discounts on selected products.  
+   - Limited-time offers to enhance user engagement.  
+
+7. **Search and Filter Products**:  
+   - Locate desired products using an advanced search functionality.  
+   - Filter through categories, price range, ratings, etc.  
+
+8. **Personalized Recommendations** *(for future updates)*:
+- Obtain product recommendations based on browse history and purchase behavior.  
+
+### **Technical Overview**
+- **Frontend**: It is built on Flutter, which provides consistent high-performance user experiences across iOS and Android. 
+- **Backend**: It is powered by Node.js, scalable and efficient server-side operation is ensured. 
+- **Database:** Store User Information, Product details, Order details.
+- **Integration of Payments**: Supports both Apple Pay and Google Pay, ensuring security and ease of transaction.  
+
+This is an application that provides a very sound backbone for the ecommerce businesses, where administrators and end-users get usability, efficiency, and scalability altogether. Advanced analytics, recommendations, and improving delivery tracking will probably be added in future versions.
 
  Stack: 
    flutter: 
